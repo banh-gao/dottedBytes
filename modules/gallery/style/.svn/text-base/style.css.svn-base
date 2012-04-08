@@ -1,0 +1,67 @@
+#gallery {
+	min-height: 400px;
+}
+
+#gallery ul {
+	width: 100%;
+}
+
+#gallery ul li {
+	text-align: center;
+	width: 165px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#gallery ul li.unpublished div.footer {
+	color: white;
+	background-color: red;
+}
+
+#gallery ul li div.head {
+	text-align: right;
+}
+
+#gallery ul li div.head a {
+	width: 0;
+	display: inline;
+}
+
+#gallery ul li div.footer {
+	text-align: center;
+	height: 30px;
+	overflow: hidden;
+}
+
+#gallery ul li a.folder div.footer {
+	font-weight: bold;
+	height: 30px;
+	overflow: hidden;
+}
+
+#gallery ul li.module div.body {
+	padding: 0px;
+	height: 120px;
+	overflow: hidden;
+}
+
+#gallery ul li.module div.body img {
+	height: 100%;
+}
+
+#gallery ul li.module:hover,#gallery ul li.module:hover div.head,#gallery ul li.module:hover div.footer
+	{
+	border-color: #3388cc;
+}
+
+#gallery ul li a {
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	height: 100%;
+}

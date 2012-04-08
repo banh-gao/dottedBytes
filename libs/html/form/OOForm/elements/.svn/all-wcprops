@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/elements
+END
+FormElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/elements/FormElement.php
+END
+LabeledElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/elements/LabeledElement.php
+END
+JavascriptTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/elements/JavascriptTag.php
+END
+HtmlTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/elements/HtmlTag.php
+END
+InputField.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/elements/InputField.php
+END
+HtmlElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/elements/HtmlElement.php
+END
+ElementContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/elements/ElementContainer.php
+END
+Separator.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/elements/Separator.php
+END

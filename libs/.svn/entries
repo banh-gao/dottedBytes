@@ -1,0 +1,92 @@
+10
+
+dir
+4
+https://svn.code.sf.net/p/dottedbytes/code/trunk/libs
+https://svn.code.sf.net/p/dottedbytes/code
+
+
+
+2011-09-03T08:38:44.661866Z
+2
+meltingshell
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5fb04cf6-55d8-4fb0-b914-64ddab419a7a
+
+configuration
+dir
+
+database
+dir
+
+errorHandling
+dir
+
+functions.php
+file
+6
+
+
+
+2011-11-05T09:50:12.000000Z
+9cd969a29227e6cb79796ca4f42b9f1c
+2011-11-05T10:46:16.598855Z
+6
+meltingshell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2183
+
+html
+dir
+
+io
+dir
+
+logging
+dir
+
+modules
+dir
+
+pageBuilder
+dir
+
+users
+dir
+
+utils
+dir
+

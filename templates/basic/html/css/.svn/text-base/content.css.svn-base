@@ -1,0 +1,215 @@
+/**
+ * @package		DottedBytes
+ * @copyright	Copyright (C) 2009 -2010 DottedBytes. All rights reserved.
+ * @license		GNU/GPL, see COPYING file
+ * @author		Daniel Zozin
+ *
+ * This file is part of DottedBytes.
+ * DottedBytes is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * DottedBytes is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with DottedBytes.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+@charset "UTF-8";
+
+div.content {
+	padding-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+div.content div.text {
+	padding-top: 20px;
+	min-height: 100px;
+	font-size: 13px;
+	line-height: 140%;
+}
+
+div.content div.subtitle {
+	margin-top: -5pt;
+	font-size: 12pt;
+	font-style: italic;
+}
+
+span.smallToolbar {
+	display: block;
+}
+
+span.smallToolbar ul {
+	float: right;
+	list-style: none;
+}
+
+span.smallToolbar li {
+	float: left;
+	margin-right: 10px;
+}
+
+span.smallToolbar div.icon {
+	width: 10px;
+}
+
+div.content span.date {
+	color: #bdbdbd;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+div.content span.lastEdit {
+	color: #bdbdbd;
+	font-size: 10px;
+}
+
+div.content span.author {
+	font-style: italic;
+	font-size: 12px;
+}
+
+div.content span.tags {
+	font-size: 10px;
+}
+
+div.news {
+	margin-top: 0px;
+}
+
+span.paginationMenu {
+	float: left;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+div.content ul {
+	list-style: none;
+}
+
+div.content div.news ul li.module {
+	margin-top: 0px;
+}
+
+div.content li.module div.head span.title {
+	font-weight: bold;
+	text-align: left;
+}
+
+div.content li.module div.head img {
+	margin-left: 5px;
+}
+
+div.content li.module div.head a,div.content li.module div.footer a,div.content li.module a div.footer
+	{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+div.content li.module div.head span.date {
+	color: #ffffff;
+	float: right;
+}
+
+div.content li.module div.footer span.author {
+	color: #ffffff;
+}
+
+div.content div.news li.module div.body {
+	min-height: 200px;
+	max-height: 500px;
+}
+
+span.tags {
+	color: #000000;
+	font-size: 12px;
+}
+
+span.highlight {
+	background-color: #FFFF66;
+}
+
+div.comments {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+div.comments h1 {
+	color: #000000;
+	text-align: left;
+	font-size: 15px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+div.comments span.sender {
+	float: left;
+	font-weight: bold;
+	text-align: left;
+}
+
+div.comments div.head {
+	height: 15px;
+}
+
+div.comments div.body {
+	height: 150px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+div.comments div.body div.icon {
+	float: left;
+	text-align: center;
+	border-right: 1px solid #555;
+	height: 150px;
+	width: 100px;
+}
+
+div.comments div.body div.icon span.username {
+	display: block;
+	height: 100%;
+	text-align: center;
+	margin-top: 1em;
+	font-weight: bold;
+}
+
+div.comments div.body div.commentText {
+	height: 140px;
+	position: relative;
+	overflow: auto;
+	padding: 5px;
+	text-align: justify;
+}
+
+/* Box corners */
+div.content li.module,div.content li.module div.head {
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+div.content li.module,div.content li.module div.head {
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+div.content li.module,div.content li.module div.footer {
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+div.content li.module,div.content li.module div.footer {
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}

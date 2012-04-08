@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/logging
+END
+LogFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/logging/LogFactory.php
+END
+ErrorLog.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/logging/ErrorLog.php
+END
+AuthLog.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/logging/AuthLog.php
+END
+Logger.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/logging/Logger.php
+END
+RollingFileLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/logging/RollingFileLogger.php
+END
+DebugLog.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/logging/DebugLog.php
+END

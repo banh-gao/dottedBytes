@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/errorHandling
+END
+CmsException.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/errorHandling/CmsException.php
+END
+ExceptionHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/errorHandling/ExceptionHandler.php
+END
+ErrorToException.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/dottedbytes/code/!svn/ver/5/trunk/libs/errorHandling/ErrorToException.php
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/utils
+END
+Comparable.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/utils/Comparable.php
+END
+IllegalArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/utils/IllegalArgumentException.php
+END
+String.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/utils/String.php
+END
+Enum.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/dottedbytes/code/!svn/ver/9/trunk/libs/utils/Enum.php
+END
+ObjectUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/utils/ObjectUtils.php
+END
+IllegalStateException.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/utils/IllegalStateException.php
+END
+TypeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/utils/TypeException.php
+END

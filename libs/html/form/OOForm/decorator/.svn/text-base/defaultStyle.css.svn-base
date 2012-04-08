@@ -1,0 +1,221 @@
+<?
+php /*
+ * @package		OOForm
+ * @copyright	Copyright (C) 2010 OOForm. All rights reserved.
+ * @license		GNU/GPL, see COPYING file
+ * @author		Daniel Zozin
+ *
+ * This file is part of OOForm.
+ * OOForm is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * OOForm is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with OOForm.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+ 
+ @charset "UTF-8";
+
+html {
+	font-size: small;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+/* Specific style form cms forms */
+form.form {
+	display: block;
+	float: left;
+	min-height: 400px; /* height hack */
+	height: auto !important;
+	height: 400px;
+	width: 800px;
+	position: relative;
+	left: 50%;
+	margin-left: -400px;
+	padding: 5px;
+	border: 1px solid gray;
+}
+
+form.form>div.error span.title {
+	font-size: large;
+	font-weight: bold;
+}
+
+form.form>div.error,form.form>div.error a {
+	color: red;
+}
+
+form.form>div.error a.inputError {
+	display: list-item;
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+}
+
+input {
+	font-size: small;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+input[type="radio"] {
+	vertical-align: bottom;
+}
+
+select {
+	font-size: small;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+select[multiple="multiple"] {
+	min-width: 150px;
+}
+
+form.form div.field {
+	display: block;
+	float: left;
+	font-size: small;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+	width: 100%;
+}
+
+form.form div.checkboxGroup div.field,form.form div.radioGroup div.field {
+	width: auto;
+	padding-right: 20px;
+}
+
+form.form div.checkboxGroup div.field span.value,form.form div.radioGroup div.field span.value
+	{
+	position: relative;
+	top: -8px;
+}
+
+form.form fieldset.group {
+	margin-top: 20px;
+}
+
+form.form fieldset.group legend {
+	font-size: 110%;
+	line-height: 0;
+}
+
+form.form div.field.separator {
+	font-size: 110%;
+	line-height: 0;
+	border-bottom: 1px dotted gray;
+	margin-top: 20px;
+}
+
+form.form div.separator p {
+	
+}
+
+form.form div.field.row0 {
+	
+}
+
+form.form div.field.row1 {
+	
+}
+
+form.form div.requiredHint {
+	float: left;
+	font-size: small;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+	font-size: 90%;
+}
+
+form.form div.field span.label {
+	display: block;
+	float: left;
+	width: 100%;
+	line-height: 150%;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+form.form div.field span.label span.requiredMark,form.form div.field span.value label span.requiredMark {
+	color: red;
+}
+
+form.form div.field span.value {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+form.form div.field span.value span.captcha img {
+	border: 1px solid gray;
+}
+
+form.form div.field span.value span.captcha a.captcha img {
+	border: none;
+}
+
+form.form div.field span.value span.captcha {
+	display: block;
+}
+
+form.form div.field span.value.colspan {
+	
+}
+
+form.form div.field span.value span.error {
+	color: red;
+	font-weight: bold;
+}
+
+form.form div.field span.value span.tooltip {
+	display: block;
+}
+
+form.form div.field span.value span.tooltip em {
+	font-size: 12px;
+	color: #000000;
+}
+
+form.form .autocomplete-w1 {
+	background: url(shadow.png) no-repeat bottom right;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 8px 0 0 6px; /* IE6 fix: */
+	_background: none;
+	_margin: 0;
+}
+
+form.form .autocomplete {
+	border: 1px solid #999;
+	background: #FFF;
+	cursor: default;
+	text-align: left;
+	max-height: 350px;
+	overflow: auto;
+	margin: -6px 6px 6px -6px; /* IE6 specific: */
+	_height: 350px;
+	_margin: 0;
+	_overflow-x: hidden;
+}
+
+form.form .autocomplete .selected {
+	background: #F0F0F0;
+}
+
+form.form .autocomplete div {
+	padding: 2px 5px;
+	white-space: nowrap;
+}
+
+form.form .autocomplete strong {
+	font-weight: normal;
+	color: #3399FF;
+}

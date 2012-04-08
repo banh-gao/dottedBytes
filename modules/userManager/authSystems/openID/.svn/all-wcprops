@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID
+END
+OpenIDException.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/OpenIDException.php
+END
+OpenIDUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/OpenIDUtils.php
+END
+OpenIDLogin.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/dottedbytes/code/!svn/ver/5/trunk/modules/userManager/authSystems/openID/OpenIDLogin.php
+END
+OpenID.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/OpenID.php
+END

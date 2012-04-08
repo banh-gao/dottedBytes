@@ -1,0 +1,346 @@
+/*
+ * @package		Dotted
+ * @copyright	Copyright (C) 2010 OOForm. All rights reserved.
+ * @license		GNU/GPL, see COPYING file
+ * @author		Daniel Zozin
+ *
+ * This file is part of OOForm.
+ * OOForm is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * OOForm is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with OOForm.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+@charset "UTF-8";
+
+html {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+/* Specific style form cms forms */
+form.form {
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+form.form div.error span.title {
+	font-size: large;
+	font-weight: bold;
+}
+
+form.form div.error,form.form div.error a {
+	color: red;
+}
+
+form.form div.error a.inputError {
+	display: list-item;
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+}
+
+input {
+	font-size: small;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+input[type="checkbox"],input[type="radio"] {
+	vertical-align: text-bottom;
+	margin-right:3px;
+}
+
+select {
+	font-size: small;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+select[multiple="multiple"] {
+	min-width: 150px;
+}
+
+input[type="text"], input[type="password"], textarea , form div.htmlArea {
+	border-top: 1px solid #555;
+	border-left: 1px solid #555;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 1px;
+	color: #333;
+}
+
+input[readonly="readonly"] , input[disabled="disabled"],textarea[readonly="readonly"] , textarea[disabled="disabled"] {
+	background-color: #efefef;
+}
+
+input:focus, textarea[readonly!="readonly"]:focus,textarea[disabled!="disabled"]:focus {
+	background: #efefef;
+	color: #000;
+}
+
+form.form input[type="text"],form.form input[type="password"] {
+	width: 200px;
+}
+
+form.form textarea , form.form div.htmlArea {
+	width: 400px;
+	height: 200px;
+}
+
+form div.htmlArea {
+	overflow: auto;
+}
+
+input[type="button"],input[type="submit"] {
+	border: 1px solid #333;
+	padding: 2px 1em;
+	background: #555;
+	color: #fff;
+	font-size: 100%;
+}
+
+form div.field {
+	display: block;
+	float: left;
+	font-size: small;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+	width: 100%;
+	margin-bottom:5px;
+}
+
+form.form div.checkboxGroup div.field,form.form div.radioGroup div.field
+	{
+	width: auto;
+	padding-right: 20px;
+}
+
+form.form div.checkboxGroup div.field span.value,form.form div.radioGroup div.field span.value
+{
+	position: relative;
+	top: -8px;
+}
+
+form.form fieldset.group {
+	margin-top: 20px;
+	padding: 5px;
+}
+
+form.form fieldset.group legend {
+	font-size: 110%;
+	padding: 5px;
+}
+
+form.form div.field.separator {
+	border-top: 1px dotted gray;
+	border-bottom: 1px dotted gray;
+	margin-top: 10px;
+}
+
+form.form div.field.separator p {
+	font-size: 110%;
+	padding:5px 0 5px 0;
+	margin: 0;
+}
+
+form.form div.field span.value {
+	margin-top: 3px;
+}
+
+form.form div.field.row0 {
+	
+}
+
+form.form div.field.row1 {
+	
+}
+
+form.form div.requiredHint {
+	float: left;
+	font-size: small;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+	font-size: 90%;
+}
+
+form.form div.field a.label , form div.field a.label {
+	line-height: 150%;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	cursor: default;
+}
+
+form.form div.field span.label span.requiredMark,form.form div.field span.value label span.requiredMark
+	{
+	color: red;
+}
+
+form.form div.field span.value {
+	display: block;
+	float: left;
+	width: 100%;
+	font-weight: normal;
+}
+
+form.form div.field span.value span.captcha img {
+	border: 1px solid gray;
+}
+
+form.form div.field span.value span.captcha a.captcha img {
+	border: none;
+}
+
+form.form div.field span.value span.captcha {
+	display: block;
+}
+
+form.form div.field span.error {
+	color: red;
+	font-weight: bold;
+	margin-left: 4px;
+}
+
+form.form div.Checkbox span.value span.error, form.form div.Radio span.value span.error {
+	margin:0;
+	display: block;
+	float: left;
+}
+
+form.form div.RadioGroup div.field span.error, form.form div.YesNoRadio div.field span.error,form.form div.CheckboxGroup div.field span.error {
+	display: none;
+}
+
+form.form div.field span.value span.tooltip {
+	display: block;
+}
+
+form.form div.field span.value span.tooltip em {
+	font-size: 12px;
+	color: #000000;
+}
+
+@charset "UTF-8";
+
+/* standard list style table */
+table.list {
+	border: 1px solid #555;
+	width:100%;
+	float:left;
+	color: #212121;
+	border-collapse: collapse;
+}
+
+table.list th {
+	margin: 0px;
+	padding: 4px;
+	height: 25px;
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: 50% 50%;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	border: 1px solid #555;
+	border-bottom: 2px solid #555;
+	cursor: default;
+}
+
+table.list td {
+	border: 1px solid #555;
+	padding: 4px;
+}
+
+table.list td.index {
+	font-weight: normal;
+}
+
+table.list tr.menu td {
+	border: 1px solid #555;
+	padding: 0px;
+	vertical-align: 0px;
+}
+
+table.list span.paginationMenu {
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
+	cursor: default;
+}
+
+table.list tr.empty {
+	text-align: center;
+	background-color: #f9f9f9;
+	font-weight: bold;
+}
+
+table.list tr.row0 {
+	text-align: center;
+	background-color: #fefefe;
+}
+
+table.list tr.row1 {
+	text-align: center;
+	background-color: #efefef;
+}
+
+table.list tr.row0:hover,table.list tr.row1:hover {
+	background-color: #ffffbb;
+	cursor: default;
+}
+
+table.list input {
+	vertical-align: middle;
+	margin: 0px;
+}
+
+table.list img {
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.autocomplete-w1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 8px 0 0 6px; /* IE6 fix: */
+	_background: none;
+	_margin: 0;
+}
+
+.autocomplete {
+	border: 1px solid #555;
+	border-top: none;
+	background: #FFF;
+	cursor: default;
+	text-align: left;
+	max-height: 350px;
+	overflow: auto;
+	margin: -6px 6px 6px -6px; /* IE6 specific: */
+	_height: 350px;
+	_margin: 0;
+	_overflow-x: hidden;
+}
+
+.autocomplete .selected {
+	background: #F0F0F0;
+}
+
+.autocomplete div {
+	padding: 2px 5px;
+	white-space: nowrap;
+}
+
+.autocomplete strong {
+	font-weight: normal;
+	color: #ff5b01;
+}

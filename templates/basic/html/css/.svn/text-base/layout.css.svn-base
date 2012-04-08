@@ -1,0 +1,109 @@
+/**
+ * @package		DottedBytes
+ * @copyright	Copyright (C) 2009 -2010 DottedBytes. All rights reserved.
+ * @license		GNU/GPL, see COPYING file
+ * @author		Daniel Zozin
+ *
+ * This file is part of DottedBytes.
+ * DottedBytes is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * DottedBytes is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with DottedBytes.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+@charset "UTF-8";
+
+body {
+	overflow: auto;
+	margin: 10px;
+}
+
+div.main {
+	float: left;
+	width: 100%;
+	position: relative;
+	min-width: 800px;
+}
+
+div.main:after { /* this is for NN6 to clear floats */
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
+div.main div.message {
+	position: absolute;
+	top: 48px;
+	left: 200px;
+	right: 200px;
+	z-index: 10;
+}
+
+div.main div.breadcrubs {
+	margin-top: 10px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+div.breadcrubs span {
+	width: 100%;
+}
+
+div.main div.left {
+	float: left;
+	margin-left: -5%;
+	/* the difference to make the left colum appear flush left */
+}
+
+div.center div.centerpad {
+	min-width: 400px;
+	margin: 0 200px;
+	display: inline-block; /* TRIP haslayout for safety */
+}
+
+div.center div.centerpad {
+	display: block; /* SWITCH back the display */
+}
+
+div.main div.right {
+	float: right;
+}
+
+div.left,div.right {
+	width: 200px;
+}
+
+div.left li.module {
+	border-left: none;
+}
+
+div.right li.module {
+	border-right: none;
+}
+
+div.main>div.center {
+	color: #000;
+	float: left;
+	width: 100%;
+	margin-right: -95%;
+	/* this needs to be less than 100% for Moz/Mac which thinks 
+         it's empty otherwise. The difference is made up by putting a 
+         negative left margin on the left float:
+	   Note IE/Mac doesn't like this method ~ it wants the 100% so it can 
+	   be fed in using IE only CSS below becasue IE/Win also works with the 100% method.  
+	*/
+}
+
+div.main>div.footer {
+	width: 100%;
+	float: left;
+}

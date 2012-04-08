@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/pageBuilder/template
+END
+Position.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/dottedbytes/code/!svn/ver/8/trunk/libs/pageBuilder/template/Position.php
+END
+Template.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/pageBuilder/template/Template.php
+END
+DefaultManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/pageBuilder/template/DefaultManager.php
+END
+PanelList.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/pageBuilder/template/PanelList.php
+END
+TemplateManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/pageBuilder/template/TemplateManager.php
+END
+TemplateException.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/pageBuilder/template/TemplateException.php
+END
+HtmlTemplate.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/dottedbytes/code/!svn/ver/8/trunk/libs/pageBuilder/template/HtmlTemplate.php
+END

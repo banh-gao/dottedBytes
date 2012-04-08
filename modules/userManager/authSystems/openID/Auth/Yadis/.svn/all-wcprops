@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis
+END
+Yadis.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/Yadis.php
+END
+XML.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/XML.php
+END
+XRDS.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/XRDS.php
+END
+Misc.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/Misc.php
+END
+Manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/Manager.php
+END
+ParseHTML.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/ParseHTML.php
+END
+HTTPFetcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/HTTPFetcher.php
+END
+XRI.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/XRI.php
+END
+XRIRes.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/XRIRes.php
+END
+ParanoidHTTPFetcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/ParanoidHTTPFetcher.php
+END
+PlainHTTPFetcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/Yadis/PlainHTTPFetcher.php
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users
+END
+UserUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/users/UserUtils.php
+END
+geolocation.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users/geolocation.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/users/User.php
+END
+Group.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users/Group.php
+END
+GroupException.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users/GroupException.php
+END
+UserBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users/UserBuilder.php
+END
+EmptyGroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users/EmptyGroup.php
+END
+GroupUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/users/GroupUtils.php
+END
+GuestBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users/GuestBuilder.php
+END
+UserException.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users/UserException.php
+END

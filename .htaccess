@@ -1,0 +1,21 @@
+Options -Indexes
+
+ErrorDocument 403 /index.php?error=notFound
+ErrorDocument 404 /index.php?error=notFound
+
+RewriteEngine on
+
+RewriteRule ^css/(.*\.css) index.php?section=siteConfig&task=combined&type=css&files=$1
+RewriteRule ^javascript/(.*\.js) index.php?section=siteConfig&task=combined&type=javascript&files=$1
+
+RewriteRule ^sitemap.xml index.php?section=contentMgr&task=sitemap [L]
+
+RewriteRule ^articles(/*)([^/]*)(.*)/feed.xml(.*) index.php?section=contentMgr&task=rss&itemid=$2&$4 [L]
+RewriteRule ^articles(/*)([^/]*)(.*)/comments.xml(.*) index.php?section=contentMgr&task=commentRss&itemid=$2&$4 [L]
+RewriteRule ^articles(/*)([^/]*)(.*) index.php?section=contentMgr&itemid=$2&$3 [L]
+
+RewriteRule ^gallery(/*)([^/]*)(.*)/feed.xml(.*) index.php?section=gallery&task=rss&itemid=$2&$4 [L]
+RewriteRule ^gallery(/*)([^/]*)(.*) index.php?section=gallery&itemid=$2&$3 [L]
+
+# Displaying PHP errors
+php_flag display_errors on

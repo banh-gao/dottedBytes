@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+div.main>div.left,div.main>div.right,div.toolbar span.buttons,div.comments,div.commentForm,form
+	{
+	display: none;
+}
+
+a,a:visited {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+div.header img {
+	height: 40pt;
+}
+
+img {
+	border: none;
+}
+
+div.content {
+	width: auto;
+}
+
+div.breadcrubs {
+	font-size: 10pt;
+}
+
+div.toolbar div.buttons,div.toolbar span.title img,div.content span.tags,span.smallToolbar
+	{
+	display: none;
+}
+
+span.paginationMenu {
+	display: none;
+}
+
+div.toolbar span.title {
+	font-size: 20pt;
+}
+
+div.news div.head span.title {
+	font-size: 15pt;
+}
+
+div.content div.subtitle {
+	margin-top: -5pt;
+	font-size: 12pt;
+	font-style: italic;
+}
+
+div.content span.readed {
+	display: none;
+}
+
+div.content div.text,div.news div.body {
+	margin-top: -5pt;
+	font-size: 10pt;
+}
+
+div.content span.date,div.news div.head span.date {
+	margin-top: -7pt;
+	font-size: 8pt;
+}
+
+div.content span.author {
+	margin-top: -5pt;
+	font-size: 10pt;
+	font-style: italic;
+}
+
+div.content div.news ul {
+	list-style: none;
+	margin-left: -35pt;
+}
+
+div.content div.news ul li {
+	margin-bottom: 10pt;
+	page-break-after: auto;
+}
+
+div.news div.head span.date {
+	display: block;
+	margin-top: -2pt;
+	margin-bottom: 2pt;
+}
+
+div.news div.head span.title a:link:after,div.news div.head span.title a:visited:after
+	{
+	font-size: 10pt;
+	font-weight: normal;
+	content: " (" attr(href) ")";
+}
+
+div.news div.head a {
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+div.main {
+	margin-bottom: 0px;
+}
+
+div.main>div.footer {
+	width: auto;
+	font-size: 10pt;
+	text-align: center;
+	width: auto;
+}

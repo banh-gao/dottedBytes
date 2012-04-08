@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers
+END
+ImageHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/ImageHelper.php
+END
+GalleryElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/GalleryElement.php
+END
+GalleryException.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/GalleryException.php
+END
+RootAlbum.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/RootAlbum.php
+END
+HTML_gallery.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/dottedbytes/code/!svn/ver/10/trunk/modules/gallery/helpers/HTML_gallery.php
+END
+UploadHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/dottedbytes/code/!svn/ver/8/trunk/modules/gallery/helpers/UploadHelper.php
+END
+GalleryHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/dottedbytes/code/!svn/ver/10/trunk/modules/gallery/helpers/GalleryHelper.php
+END
+GalleryRss.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/dottedbytes/code/!svn/ver/8/trunk/modules/gallery/helpers/GalleryRss.php
+END
+RecoveryHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/RecoveryHelper.php
+END

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /index.php
+Allow: /error.php
+Allow: /articles
+Allow: /gallery
+Disallow: /

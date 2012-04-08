@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID
+END
+Consumer.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/Consumer.php
+END
+AX.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/AX.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/Interface.php
+END
+DatabaseConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/DatabaseConnection.php
+END
+MDB2Store.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/MDB2Store.php
+END
+TrustRoot.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/TrustRoot.php
+END
+DumbStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/DumbStore.php
+END
+DiffieHellman.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/DiffieHellman.php
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/Extension.php
+END
+MySQLStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/MySQLStore.php
+END
+SReg.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/SReg.php
+END
+Association.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/Association.php
+END
+Server.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/Server.php
+END
+FileStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/FileStore.php
+END
+PAPE.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/PAPE.php
+END
+HMAC.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/HMAC.php
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/Message.php
+END
+URINorm.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/URINorm.php
+END
+BigMath.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/BigMath.php
+END
+Discover.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/Discover.php
+END
+MemcachedStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/MemcachedStore.php
+END
+ServerRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/ServerRequest.php
+END
+PostgreSQLStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/PostgreSQLStore.php
+END
+Nonce.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/Nonce.php
+END
+KVForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/KVForm.php
+END
+CryptUtil.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/CryptUtil.php
+END
+Parse.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/Parse.php
+END
+SQLStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/SQLStore.php
+END
+SQLiteStore.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/authSystems/openID/Auth/OpenID/SQLiteStore.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users/permissions
+END
+Permission.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/users/permissions/Permission.php
+END
+PermissionSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/users/permissions/PermissionSet.php
+END

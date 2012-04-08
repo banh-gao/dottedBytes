@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator
+END
+ValidationException.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/ValidationException.php
+END
+EmailValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/EmailValidator.php
+END
+InputValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/InputValidator.php
+END
+NumberValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/NumberValidator.php
+END
+IPValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/IPValidator.php
+END
+RegexValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/RegexValidator.php
+END
+LengthValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/LengthValidator.php
+END
+DomainValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/DomainValidator.php
+END
+ChoiceValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/ChoiceValidator.php
+END
+UrlValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/UrlValidator.php
+END
+EmptyValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/html/form/OOForm/validator/EmptyValidator.php
+END

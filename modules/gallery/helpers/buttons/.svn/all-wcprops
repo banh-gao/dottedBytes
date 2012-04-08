@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/buttons
+END
+RegenerateThumbsButton.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/buttons/RegenerateThumbsButton.php
+END
+DeleteGalleryButton.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/buttons/DeleteGalleryButton.php
+END
+EditGalleryButton.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/buttons/EditGalleryButton.php
+END
+UnpublishGalleryButton.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/buttons/UnpublishGalleryButton.php
+END
+ExportGalleryButton.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/buttons/ExportGalleryButton.php
+END
+RssButton.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/buttons/RssButton.php
+END
+NewGalleryButton.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/buttons/NewGalleryButton.php
+END
+PublishGalleryButton.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/gallery/helpers/buttons/PublishGalleryButton.php
+END

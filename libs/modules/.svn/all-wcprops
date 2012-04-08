@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/modules
+END
+ModFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/dottedbytes/code/!svn/ver/12/trunk/libs/modules/ModFactory.php
+END
+ModuleInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/modules/ModuleInfo.php
+END
+PanelException.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/modules/PanelException.php
+END
+Module.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/dottedbytes/code/!svn/ver/11/trunk/libs/modules/Module.php
+END
+Component.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/modules/Component.php
+END
+ModUtils.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/dottedbytes/code/!svn/ver/12/trunk/libs/modules/ModUtils.php
+END
+PageNotFoundException.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/modules/PageNotFoundException.php
+END
+ComponentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/modules/ComponentException.php
+END
+ModuleException.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/modules/ModuleException.php
+END
+Panel.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/modules/Panel.php
+END

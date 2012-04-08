@@ -1,0 +1,3 @@
+<?php
+echo "ERROR!\n";
+echo @$_REQUEST['cause'];

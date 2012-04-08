@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users/auth
+END
+AuthException.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/dottedbytes/code/!svn/ver/2/trunk/libs/users/auth/AuthException.php
+END
+AuthSystem.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/users/auth/AuthSystem.php
+END
+PermissionException.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/dottedbytes/code/!svn/ver/10/trunk/libs/users/auth/PermissionException.php
+END

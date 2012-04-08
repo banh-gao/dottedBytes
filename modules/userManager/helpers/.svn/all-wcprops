@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers
+END
+RegistrationHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/dottedbytes/code/!svn/ver/10/trunk/modules/userManager/helpers/RegistrationHelper.php
+END
+ArticlesTableModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/dottedbytes/code/!svn/ver/5/trunk/modules/userManager/helpers/ArticlesTableModel.php
+END
+UserHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/UserHelper.php
+END
+RecipientValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/RecipientValidator.php
+END
+UniqueMailValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/UniqueMailValidator.php
+END
+PMHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/PMHelper.php
+END
+UsernameValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/UsernameValidator.php
+END
+AdminHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/AdminHelper.php
+END
+UserManagerException.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/UserManagerException.php
+END
+HTML_userManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/HTML_userManager.php
+END
+HTML_userManager_Admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/HTML_userManager_Admin.php
+END
+CommentsTableModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/CommentsTableModel.php
+END
+PMRecipientSuggestion.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/dottedbytes/code/!svn/ver/2/trunk/modules/userManager/helpers/PMRecipientSuggestion.php
+END
