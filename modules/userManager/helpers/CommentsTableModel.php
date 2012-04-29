@@ -22,6 +22,8 @@
 
 namespace dottedBytes\modules\userManager\helpers;
 
+use OOForm\elements\HtmlTag;
+
 use dottedBytes\libs\io\PageData;
 
 use dottedBytes\libs\database\DBManager;
@@ -31,9 +33,9 @@ use dottedBytes\libs\pageBuilder\LocaleUtils;
 use OOForm\elements\table\TableModel;
 
 class CommentsTableModel implements TableModel {
-	
+
 	private $rows;
-	
+
 	public function __construct($uid) {
 		$query = "SELECT * FROM #__contents_comments JOIN ";
 		$query .= "(SELECT id as contentID , title , creation_time , readed FROM #__contents) as c USING (contentID) WHERE uid={$uid} ORDER BY date DESC , title ASC";
@@ -41,36 +43,39 @@ class CommentsTableModel implements TableModel {
 		$result = $db->query ( $query );
 		$this->rows = $result->fetchAll ();
 	}
-	
+
 	public function getHeaders() {
 		return array (USERMANAGER_ACCOUNT_COMMENTS_VIEW, USERMANAGER_ACCOUNT_COMMENTS_DATE, USERMANAGER_ACCOUNT_ARTICLES_TITLE, USERMANAGER_ACCOUNT_ARTICLES_AUTHORTIME );
 	}
-	
+
 	public function getRowCount() {
 		return count($this->rows);
 	}
-	
+
 	public function getRow($i) {
 		$row = $this->rows [$i];
+
+		$content = '';
+
 		//Orphan comment
-		$res = array ();
 		if ($row->contentID == NULL) {
-			$res [] = "<a href=\"" . BASEURL . "/index.php?section=contentMgr&commentid=$row->id\">" . USERMANAGER_ACCOUNT_COMMENTS_VIEW . "</a>";
-			$res [] = LocaleUtils::time ( $row->date );
-			$res [] = USERMANAGER_ACCOUNT_OPRHAN;
-			$res [] = " -- ";
+			$content .= "<a href=\"" . BASEURL . "/index.php?section=contentMgr&commentid=$row->id\">" . USERMANAGER_ACCOUNT_COMMENTS_VIEW . "</a>";
+			$content .= LocaleUtils::time ( $row->date );
+			$content .= USERMANAGER_ACCOUNT_OPRHAN;
+			$content .= " -- ";
 		} else {
 			$title = $row->title;
 			$creation_time = $row->creation_time;
 			$link = BASEURL . '/index.php?section=contentMgr&itemid=' . $row->contentID;
 			PageData::setSefReplaceRule ( $link, array ('articles' => 0, $title => $row->contentID ) );
-			
-			$res [] = "<a href=\"$link#comment$row->id\">" . USERMANAGER_ACCOUNT_COMMENTS_VIEW . "</a>";
-			$res [] = LocaleUtils::time ( $row->date );
-			$res [] = "<a href=\"$link\">$title</a>";
-			$res [] = LocaleUtils::time ( $creation_time );
+				
+			$content .= "<a href=\"$link#comment$row->id\">" . USERMANAGER_ACCOUNT_COMMENTS_VIEW . "</a>";
+			$content .= LocaleUtils::time ( $row->date );
+			$content .= "<a href=\"$link\">$title</a>";
+			$content .= LocaleUtils::time ( $creation_time );
 		}
-		return $res;
+
+		return new HtmlTag('td',$content);
 	}
 }
 

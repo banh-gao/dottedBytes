@@ -22,6 +22,8 @@
 
 namespace OOForm\elements\table;
 
+use OOForm\elements\HtmlTag;
+
 use OOForm\elements\HtmlElement;
 
 use OOForm\decorator\FormDecorator;
@@ -33,33 +35,33 @@ use OOForm\elements\group\ElementGroup;
 use OOForm\elements\LabeledElement;
 
 class Table extends LabeledElement {
-	
+
 	/**
 	 * the table model
 	 * @var TableModel
 	 */
 	private $model;
-	
+
 	private $emptyMessage = _SITE_EMPTY;
-	
+
 	public function __construct($label = '', TableModel $model) {
 		parent::__construct ( $label );
 		$this->tagName = 'table';
 		$this->model = $model;
 		$this->setAttribute ( 'class', 'list' );
 	}
-	
+
 	public function setEmptyMessage($message) {
 		$this->emptyMessage = $message;
 	}
-	
+
 	/**
 	 * @return string
 	 */
 	public function getEmptyMessage() {
 		return $this->emptyMessage;
 	}
-	
+
 	/**
 	 * (non-PHPdoc)
 	 * @see OOForm\elements.HtmlTag::renderChildren()
@@ -75,27 +77,35 @@ class Table extends LabeledElement {
 		}
 		return $ret;
 	}
-	
-	private function renderHeaders(FormDecorator $decorator) {
-		$ret = '<tr>';
-		foreach ( $this->model->getHeaders () as $header ) {
-			if (! ($header instanceof FormElement))
-				$header = new HtmlElement ( '', $header );
-			$ret .= '<th>' . $decorator->render ( $header ) . '</th>';
+
+	public function getChildren() {
+		$children[0] = $this->getHeaderTag();
+
+
+		for($i = 0; $i < $this->model->getRowCount (); $i ++) {
+			$children[$i+1] = $this->getRowTag($i);
 		}
-		return $ret . "</tr>\n";
+		return $children;
 	}
-	
-	private function renderRow($i, FormDecorator $decorator) {
-		$row = $this->model->getRow ( $i );
-		$cssRow = ($i % 2) ? 'row0' : 'row1';
-		$ret = "<tr class=\"$cssRow\">";
-		foreach ( $row as $element ) {
-			if (! ($element instanceof FormElement))
-				$element = new HtmlElement ( '', $element );
-			$ret .= '<td>' . $decorator->render ( $element ) . '</td>';
+
+	private function getHeaderTag() {
+		$headerTag = new HtmlTag('tr');
+		foreach ( $this->model->getHeaders () as $headerVal ) {
+			if (! ($headerVal instanceof FormElement))
+			$headerVal = new HtmlElement ( '', $headerVal );
+			$thTag = new HtmlTag('th');
+			$thTag->addChild($headerVal);
+			$headerTag->addChild($thTag);
 		}
-		return $ret . "</tr>\n";
+		return $headerTag;
+	}
+
+	private function getRowTag($i) {
+		$rowTag = new HtmlTag('tr');
+		$style = ($i % 2) ? 'row0' : 'row1';
+		$rowTag->setAttribute('class', $style);
+		$rowTag->addChild($this->model->getRow ( $i ));
+		return $rowTag;
 	}
 }
 

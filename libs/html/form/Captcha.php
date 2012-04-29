@@ -22,7 +22,12 @@
 
 namespace dottedBytes\libs\html\form;
 
+use dottedBytes\libs\io\FileUtils;
+
 use dottedBytes\libs\configuration\Configuration;
+
+FileUtils::loadFile ( 'libs/html/form/OOForm/Form' );
+
 use OOForm\elements\recaptcha\Recaptcha;
 
 if (! defined ( 'VALID_REQUEST' ))
@@ -36,6 +41,10 @@ class Captcha extends Recaptcha {
 	public function __construct() {
 		$publicKey = Configuration::getValue('system.common.recaptcha.publicKey');
 		parent::__construct($publicKey);
+	}
+	
+	public static function checkCaptcha() {
+		return Recaptcha::validate ( "6Le9xMASAAAAAMJsvYkTGwzgBJJq5OH1ITP-CPc3" );
 	}
 }
 

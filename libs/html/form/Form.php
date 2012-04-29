@@ -34,8 +34,6 @@ use dottedBytes\libs\pageBuilder\PageBuilder;
 
 FileUtils::loadFile ( 'libs/html/form/OOForm/Form' );
 
-use OOForm\elements\recaptcha\Recaptcha;
-
 if (! defined ( 'VALID_REQUEST' ))
 	die ( 'Direct access is not allowed' );
 
@@ -51,10 +49,6 @@ class Form extends \OOForm\Form {
 		} catch ( TemplateException $e ) {
 			
 		}
-	}
-	
-	public static function checkCaptcha() {
-		return Recaptcha::validate ( "6Le9xMASAAAAAMJsvYkTGwzgBJJq5OH1ITP-CPc3" );
 	}
 }
 

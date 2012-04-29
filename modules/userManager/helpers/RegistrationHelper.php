@@ -147,7 +147,7 @@ class RegistrationHelper {
 			if ($tempPass !== $request->getValue ( 'password2', '' ))
 				$request->setError ( 'password2', USERMANAGER_REGISTRATION_CHECKEQUALPASS );
 				
-			Form::checkCaptcha ();
+			Captcha::checkCaptcha ();
 		} else {
 			$tempPass = '';
 			$openID = $request->getValue ( 'openid_identifier', new EmptyValidator () );
@@ -183,6 +183,9 @@ class RegistrationHelper {
 			PageData::back();
 		$uid = $_SESSION["resendUID"];
 		unset($_SESSION["resendUID"]);
+		
+		Captcha::checkCaptcha ();
+		
 		$user = UserUtils::getUser ( $uid );
 		if ($user->getId () == 0)
 			throw new UserManagerException ();

@@ -263,6 +263,7 @@ class HTML_userManager {
 		//Use session to avoid manual modifications
 		$_SESSION ["resendUID"] = $user->getId ();
 		$form->addElement ( new Separator ( sprintf ( USERMANAGER_REGISTRATION_RESEND, $user->getEmail () ) ) );
+		$form->addElement(new Captcha());
 		$form->addElement ( new Submit ( USERMANAGER_REGISTRATION_RESEND_BUTTON ) );
 		
 		PageData::clearBreadcrubs ();

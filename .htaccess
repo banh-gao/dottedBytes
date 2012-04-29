@@ -3,6 +3,7 @@ Options -Indexes
 ErrorDocument 403 /index.php?error=notFound
 ErrorDocument 404 /index.php?error=notFound
 
+
 RewriteEngine on
 
 RewriteRule ^css/(.*\.css) index.php?section=siteConfig&task=combined&type=css&files=$1

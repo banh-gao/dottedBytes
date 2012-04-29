@@ -129,11 +129,11 @@ define ( "USERMANAGER_REGISTRATION_FORGOT", "Richiesta nuova password" );
 define ( "USERMANAGER_REGISTRATION_PRIVACY", "Informativa sulla privacy" );
 define ( "USERMANAGER_REGISTRATION_PRIVACY_ACCEPT", "Accetto quanto riportato nell'informativa sulla privacy" );
 define ( "USERMANAGER_REGISTRATION_PRIVACY_ERROR", "È necessario accettare l'informativa sulla privacy per completare la registrazione" );
-define ( "USERMANAGER_REGISTRATION_RESEND", "L'account è in attesa della conferma via email all'indirizzo <b>%s</b>.<br/>Cliccare sul pulsante seguente per inviare un'altra email.<br/>La password verrà rigenerata, sarà comunque possibile cambiarla in seguito." );
+define ( "USERMANAGER_REGISTRATION_RESEND", "L'account è in attesa della conferma via email all'indirizzo <b>%s</b>.<br/>Da qui &egrave; possibile richiedere l'invio di un'altra email, la password verrà rigenerata ma sarà comunque possibile cambiarla in seguito." );
 define ( "USERMANAGER_REGISTRATION_RESEND_BUTTON", "Invia" );
 
 define ( "USERMANAGER_OPENID_INFO", "OpenID è un meccanismo che permette di avere un unico nome utente e password registrati presso un provider OpenID.<br />
-I siti che supportano OpenID ti chiederanno solo l'indirizzo del tuo provider, in modo che quando vorrai fare il login la tua richiesta verr&#224; ridirezionata la tuo provider.<br />
+I siti che supportano OpenID ti chiederanno solo l'indirizzo del tuo provider, in modo che quando vorrai fare il login la tua richiesta verr&#224; ridirezionata al tuo provider.<br />
 Per maggiori informazioni su OpenID visitare il <a href=\"http://openid.net/\">sito ufficiale</a>." );
 
 define ( "USERMANAGER_OPENID_DOWN", "Impossibile contattare il provider OpenID." );

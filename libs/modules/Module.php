@@ -78,10 +78,9 @@ abstract class Module implements Comparable {
 	protected abstract function buildContent();
 	
 	/**
-	 * Returns true if the passed user permissions are enought to access the module, return false of throw a PermissionException otherwise
+	 * Returns true if the passed user permissions are enought to access the module, throw a PermissionException otherwise
 	 * @param PermissionSet $userPermissions
 	 * @throws PermissionException
-	 * @return boolean
 	 */
 	public abstract function checkPermissions(PermissionSet $userPermissions);
 	
