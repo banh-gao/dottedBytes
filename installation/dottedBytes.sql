@@ -1,19 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 3.2.0.1
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generato il: 12 feb, 2011 at 10:01 AM
--- Versione MySQL: 5.1.49
--- Versione PHP: 5.3.3-1ubuntu9.3
-
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
 
 --
 -- Database: `dottedBytes`
@@ -45,14 +30,14 @@ INSERT INTO `configurations` (`id`, `parentId`, `name`, `value`, `type`, `params
 (1, NULL, 'system', '', '', '', ''),
 (2, 1, 'email', '', '', '', ''),
 (3, 2, 'smtp', '', '', '', ''),
-(4, 3, 'host', 'smtp.gmail.com', 'string', '', 'The hostname of the smtp mail server'),
-(5, 3, 'port', '465', 'integer', '', 'The port number of the smtp mail server'),
+(4, 3, 'host', '', 'string', '', 'The hostname of the smtp mail server'),
+(5, 3, 'port', '', 'integer', '', 'The port number of the smtp mail server'),
 (6, 3, 'enable', 'true', 'boolean', '', 'Use smtp for sending email'),
 (7, 3, 'useAuth', 'true', 'boolean', '', 'Use authentication for smtp server'),
-(8, 3, 'username', 'dottedBytes@gmail.com', 'string', '', 'The username for the smtp authentication'),
-(9, 3, 'password', 'caccamo123', 'password', '', 'The password for the smtp authentication'),
-(10, 2, 'fromMail', 'dottedBytes@gmail.com', 'email', '', 'The email to display in the from field of emails'),
-(11, 2, 'replyMail', 'dottedBytes@gmail.com', 'email', '', 'The email to display in the reply-to field of emails'),
+(8, 3, 'username', '', 'string', '', 'The username for the smtp authentication'),
+(9, 3, 'password', '', 'password', '', 'The password for the smtp authentication'),
+(10, 2, 'fromMail', '', 'email', '', 'The email to display in the from field of emails'),
+(11, 2, 'replyMail', '', 'email', '', 'The email to display in the reply-to field of emails'),
 (12, 1, 'site', '', '', '', ''),
 (13, 12, 'name', 'DottedBytes', 'string', '', 'The name of the website'),
 (14, 12, 'description', '', 'string', '', 'A generic description of the website'),
@@ -110,8 +95,8 @@ INSERT INTO `configurations` (`id`, `parentId`, `name`, `value`, `type`, `params
 (66, 53, 'showConnectedUsers', 'true', '', '', ''),
 (67, 1, 'common', '', '', '', ''),
 (68, 67, 'recaptcha', '', '', '', ''),
-(69, 68, 'publicKey', '6Le9xMASAAAAAD72b8Dfu57ShgDOQYsNdk3tiVBg', '', '', ''),
-(70, 68, 'privateKey', '6Le9xMASAAAAAMJsvYkTGwzgBJJq5OH1ITP-CPc3', '', '', ''),
+(69, 68, 'publicKey', '', '', '', ''),
+(70, 68, 'privateKey', '', '', '', ''),
 (71, 47, 'thumbHeight', '200', '', '', '');
 
 -- --------------------------------------------------------
@@ -141,18 +126,6 @@ CREATE TABLE IF NOT EXISTS `contents` (
   KEY `editorID` (`editorID`),
   KEY `parentID` (`parentID`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
-
---
--- Dump dei dati per la tabella `contents`
---
-
-INSERT INTO `contents` (`id`, `parentID`, `type`, `title`, `subtitle`, `text`, `authorID`, `creation_time`, `editorID`, `editor_time`, `published`, `ordering`, `isNews`, `useComments`, `readed`) VALUES
-(1, NULL, 'static', 'homepage', '', '', NULL, '2011-01-30 22:46:02', NULL, '2011-01-30 22:46:02', 0, 0, 0, 0, 0),
-(2, NULL, 'link', 'Galleria', 'gallery:0', 'index.php?section=gallery', NULL, '2011-01-30 22:46:02', NULL, '2011-01-30 22:46:02', 1, 9999, 0, 0, 0),
-(6, NULL, 'category', 'sdfsdf', '', '<p>\r\n	sdfsdf</p>\r\n', 4, '2011-02-11 10:55:54', NULL, '0000-00-00 00:00:00', 0, 0, 0, 0, 0),
-(7, NULL, 'category', 'sdfgdfgdfd', '', '<p>\r\n	gfhghjghjghjg</p>\r\n', 4, '2011-02-11 13:11:25', 4, '2011-02-12 05:14:50', 1, 0, 0, 0, 26),
-(8, 7, 'article', 'sdfsdfsdfs', '', '<p>\r\n	asdfsdfsdfsd</p>\r\n', 4, '2011-02-11 13:11:48', 4, '2011-02-11 13:12:37', 1, 0, 1, 0, 10),
-(9, 7, 'article', 'sdfsdfsdfs', '', '<p>\r\n	sdfgdfgdfgfd</p>\r\n', 4, '2011-02-11 13:12:20', 4, '2011-02-11 13:12:45', 1, 0, 1, 0, 11);
 
 -- --------------------------------------------------------
 
@@ -241,12 +214,6 @@ CREATE TABLE IF NOT EXISTS `groups` (
 --
 -- Dump dei dati per la tabella `groups`
 --
-
-INSERT INTO `groups` (`gid`, `name`, `creation`) VALUES
-(1, 'Guest', '2011-01-30 22:46:02'),
-(2, 'Super Administrator', '2011-01-30 22:46:02'),
-(3, 'Editor', '2011-01-30 22:46:02'),
-(4, 'Registered', '2011-01-30 22:46:02');
 
 -- --------------------------------------------------------
 
@@ -475,13 +442,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   PRIMARY KEY (`uid`),
   KEY `gid` (`gid`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
-
---
--- Dump dei dati per la tabella `users`
---
-
-INSERT INTO `users` (`uid`, `name`, `username`, `email`, `password`, `sendEmail`, `gid`, `regDate`, `visitDate`, `activation`, `language`, `params`) VALUES
-(4, 'Daniel', 'admin', 'dottedBytes@gmail.com', 'rRsIYLTE:3c97fe1766d8256bbe44e2efd2c6f8d17fe6840c', 0, 2, '2011-02-04 06:54:36', '2011-02-12 08:25:02', '', 'ita', '');
 
 -- --------------------------------------------------------
 

@@ -15,8 +15,6 @@
 	Configuration::setValue ( 'system.site.dateFormat', '%A %e %B %Y' );
 	Configuration::setValue ( 'system.site.timeFormat', '%H:%M:%S' );
 	Configuration::setValue ( 'system.site.languageCode', 'it' );
-	Configuration::setValue ( 'system.common.recaptcha.publicKey', '6Le9xMASAAAAAD72b8Dfu57ShgDOQYsNdk3tiVBg' );
-	Configuration::setValue ( 'system.common.recaptcha.privateKey', '6Le9xMASAAAAAMJsvYkTGwzgBJJq5OH1ITP-CPc3' );
 	Configuration::setValue ( 'system.module.default', 'contentMgr' );
 	Configuration::setValue ( 'system.users.atteptControl.enable', 'false' );
 	Configuration::setValue ( 'system.users.atteptControl.maxAttepts', 3 );
